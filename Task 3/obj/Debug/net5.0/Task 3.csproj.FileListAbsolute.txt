@@ -1,0 +1,5 @@
+C:\Users\sakav\OneDrive\Documents\Personal\Programavimas\C#\Programos\Task 3\obj\Debug\net5.0\Task 3.csproj.AssemblyReference.cache
+C:\Users\sakav\OneDrive\Documents\Personal\Programavimas\C#\Programos\Task 3\obj\Debug\net5.0\Task 3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sakav\OneDrive\Documents\Personal\Programavimas\C#\Programos\Task 3\obj\Debug\net5.0\Task 3.AssemblyInfoInputs.cache
+C:\Users\sakav\OneDrive\Documents\Personal\Programavimas\C#\Programos\Task 3\obj\Debug\net5.0\Task 3.AssemblyInfo.cs
+C:\Users\sakav\OneDrive\Documents\Personal\Programavimas\C#\Programos\Task 3\obj\Debug\net5.0\Task 3.csproj.CoreCompileInputs.cache
