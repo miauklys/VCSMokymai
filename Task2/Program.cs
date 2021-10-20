@@ -7,18 +7,12 @@ namespace Task2
     {
         static void Main(string[] args)
         {
-            //Skaicius kazkoks = new Skaicius();
-            //kazkoks.ivestis();
-            //string ivestis = Console.ReadLine();
+            List<Skaicius> teigiamuSkaiciuSarasass = new List<Skaicius>();
+            Skaicius sumosVeiksmas = new Skaicius();
 
-            //List<Skaicius> skaiciukai = new List<Skaicius>();
-            //skaiciukai.Add(kazkoks);
-            //kazkoks.ivestis();
-            //Console.ReadLine();
+            int suma = sumosVeiksmas.Suma(teigiamuSkaiciuSarasass);
 
-            Skaicius kazkoksKitas = new Skaicius();
-
-            int sk = kazkoksKitas.suma();
+            Console.WriteLine($"{suma}");
             Console.ReadLine();
 
         }

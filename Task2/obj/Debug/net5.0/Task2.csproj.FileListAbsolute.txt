@@ -14,3 +14,11 @@ C:\Users\sakav\OneDrive\Documents\Personal\Programavimas\C#\Programos\Task2\obj\
 C:\Users\sakav\OneDrive\Documents\Personal\Programavimas\C#\Programos\Task2\obj\Debug\net5.0\ref\Task2.dll
 C:\Users\sakav\OneDrive\Documents\Personal\Programavimas\C#\Programos\Task2\obj\Debug\net5.0\Task2.pdb
 C:\Users\sakav\OneDrive\Documents\Personal\Programavimas\C#\Programos\Task2\obj\Debug\net5.0\Task2.genruntimeconfig.cache
+C:\Users\sakav\VCSMokymai\Task2\obj\Debug\net5.0\Task2.csproj.AssemblyReference.cache
+C:\Users\sakav\VCSMokymai\Task2\obj\Debug\net5.0\Task2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sakav\VCSMokymai\Task2\obj\Debug\net5.0\Task2.AssemblyInfoInputs.cache
+C:\Users\sakav\VCSMokymai\Task2\obj\Debug\net5.0\Task2.AssemblyInfo.cs
+C:\Users\sakav\VCSMokymai\Task2\obj\Debug\net5.0\Task2.csproj.CoreCompileInputs.cache
+C:\Users\sakav\VCSMokymai\Task2\obj\Debug\net5.0\Task2.dll
+C:\Users\sakav\VCSMokymai\Task2\obj\Debug\net5.0\ref\Task2.dll
+C:\Users\sakav\VCSMokymai\Task2\obj\Debug\net5.0\Task2.pdb
