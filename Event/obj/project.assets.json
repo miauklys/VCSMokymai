@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sakav\\VCSMokymai\\Task2\\Task2.csproj",
-      "projectName": "Task2",
-      "projectPath": "C:\\Users\\sakav\\VCSMokymai\\Task2\\Task2.csproj",
+      "projectUniqueName": "C:\\Users\\sakav\\source\\repos\\Event\\Event.csproj",
+      "projectName": "Event",
+      "projectPath": "C:\\Users\\sakav\\source\\repos\\Event\\Event.csproj",
       "packagesPath": "C:\\Users\\sakav\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sakav\\VCSMokymai\\Task2\\obj\\",
+      "outputPath": "C:\\Users\\sakav\\source\\repos\\Event\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
