@@ -7,10 +7,10 @@ namespace Task_3
     {
         static void Main(string[] args)
         {
-            IvedimoIrIsvedimoKlase ivedimoPrograma = new IvedimoIrIsvedimoKlase();
+            TaskThreeClass ivedimoPrograma = new TaskThreeClass();
             List<int> sudarytasSarasas = ivedimoPrograma.IvestiSkaicius(); //įvesti duomenys išsaugojami sąraše
 
-            IvedimoIrIsvedimoKlase isvedimoPrograma = new IvedimoIrIsvedimoKlase();
+            TaskThreeClass isvedimoPrograma = new TaskThreeClass();
             isvedimoPrograma.AtspausdintiSkaicius(sudarytasSarasas);
 
             Console.ReadLine();

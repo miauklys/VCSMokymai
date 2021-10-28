@@ -1,13 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
-
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Task_3
+namespace TaskThree
 {
-    public class IvedimoIrIsvedimoKlase
+    public class TaskThreeClass
     {
         public List<int> IvestiSkaicius() //tipas turi buti List
         {
