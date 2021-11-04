@@ -8,7 +8,6 @@ namespace Task2
 {
     public class Skaicius
     {
-
         public List<double> IvedimasTTwo()
         {
             List<double> skaiciuSarasas = new List<double>();

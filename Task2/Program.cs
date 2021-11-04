@@ -7,22 +7,22 @@ namespace Task2
     {
         static void Main(string[] args)
         {
-            Skaicius programaIvesti = new Skaicius();
+            TaskTwoClass programaIvesti = new TaskTwoClass();
             List<double> teigiamuSkaiciuSarasas = programaIvesti.IvedimasTTwo();
 
-            Skaicius programaPatikrinaArTeigiamiSkaiciai = new Skaicius();
+            TaskTwoClass programaPatikrinaArTeigiamiSkaiciai = new TaskTwoClass();
             programaPatikrinaArTeigiamiSkaiciai.PatikrintiArTeigiamiSkaiciai(teigiamuSkaiciuSarasas);
 
-            Skaicius sumosVeiksmas = new Skaicius();
+            TaskTwoClass sumosVeiksmas = new TaskTwoClass();
             double suma = sumosVeiksmas.SudetiSkaicius(teigiamuSkaiciuSarasas);
 
-            Skaicius atimtiesVeiksmas = new Skaicius();
+            TaskTwoClass atimtiesVeiksmas = new TaskTwoClass();
             double atimtis = atimtiesVeiksmas.AtimtiSkaicius(teigiamuSkaiciuSarasas);
 
-            Skaicius sandaugosVeiksmas = new Skaicius();
+            TaskTwoClass sandaugosVeiksmas = new TaskTwoClass();
             double sandauga = sandaugosVeiksmas.SudaugintiSkaicius(teigiamuSkaiciuSarasas);
 
-            Skaicius dalybosVeiksmas = new Skaicius();
+            TaskTwoClass dalybosVeiksmas = new TaskTwoClass();
             double dalyba = dalybosVeiksmas.DalinaSkaicius(teigiamuSkaiciuSarasas);
 
 
