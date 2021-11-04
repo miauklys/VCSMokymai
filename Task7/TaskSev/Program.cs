@@ -11,20 +11,20 @@ namespace TaskSev
             User logger = new User();
             string ivestis = logger.Logger();
             Selection pas = logger.LoggingIn(ivestis);
-            Prisijungimas(pas);
+            Log(pas);
 
             Console.ReadLine();
         }
-        private static string Prisijungimas(Selection pas)
+        private static string Log(Selection pas)
         {
-
+            
             switch (pas)
             {
                 case Selection.LogIn:
-                    User p = new User(); p.LoggingIn(string kas);
+                    User p = new User(); p.LoggingIn();
                     return string.Empty;
                 case Selection.LogOn:
-                    User pp = new User(); pp.LoggingIn(string kass);
+                    User pp = new User(); pp.LoggingIn();
                     return string.Empty;
             }
         }

@@ -156,36 +156,6 @@ namespace TaskSev
             //    }
             //}       
 
-
-
-            //public string UserAggregator(string atsakymas, string direktorija)
-            //{
-            //    string dir = $"C:/Users/sakav/user.txt";
-            //    bool atsakymasIrasytas = false;
-            //    using (StreamReader streamReader = File.OpenText(dir))
-            //    {
-            //        string[] eilutes = File.ReadAllLines(dir);
-            //        for (int x = 0; x < eilutes.Length - 1; x++)
-            //        {
-            //            if (atsakymas == eilutes[x])
-            //            {
-            //                streamReader.Close();
-            //                Console.WriteLine("Toks vardas jau panaudotas kito vartotojo.");
-            //                atsakymasIrasytas = true;
-            //            }
-            //        }
-            //        if (!atsakymasIrasytas)
-            //        {
-            //            using (StreamWriter streamWriter = File.CreateText(dir))
-            //            {
-            //                streamWriter.WriteLine(atsakymas);
-            //            }
-            //        }
-            //    }
-
-            //    return string.Empty;
-
-            //}
         }
     }
 }
