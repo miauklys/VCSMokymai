@@ -6,22 +6,46 @@ using System.Threading.Tasks;
 
 namespace Task4
 {
-    public class TaskFourClass
+    class TaskFourClass
     {
-        private List<string> zodziuSarasas;
-        private TaskFourClass()
+        public List<string> IvestiTeksta()
         {
-            zodziuSarasas = new List<string>();
+            List<string> tekstoSarasas = new List<string>();
+            List<string> kitasTekstoSarasas = new List<string>();
 
-            bool noriuTesti = true;
+            string ivestasZodis = "END";
 
-            while (noriuTesti)
+            do
             {
-                Console.WriteLine("Įveskite žodį:");
-                string ivestis = Console.ReadLine();
-                zodziuSarasas.Add(ivestis);
+                Console.WriteLine("Įveskite žodį (įrašius paskutinį žodį, įveskite END):");
+                ivestasZodis = Console.ReadLine();
+                tekstoSarasas.Add(ivestasZodis);
 
-                noriuTesti = Console.ReadLine() == "taip";
+                if (!kitasTekstoSarasas.Contains(ivestasZodis))
+                {
+                    kitasTekstoSarasas.Add(ivestasZodis);
+                }
+
+                else
+                {
+                    Console.WriteLine("Šis žodis jau yra įvestas!");
+                }
+            }
+            while (ivestasZodis != "END");
+
+            if (kitasTekstoSarasas.Contains("END")) ;
+            {
+                kitasTekstoSarasas.Remove("END");
+            }
+
+            return kitasTekstoSarasas;
+        }
+
+        public void isvestiZodzius(List<string> sarasas)
+        {
+            foreach (string zodis in sarasas)
+            {
+                Console.WriteLine(zodis);
             }
         }
     }

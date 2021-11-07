@@ -1,0 +1,5 @@
+C:\Users\sakav\VCSMokymai\Task7\TaskSev\obj\Debug\net5.0\TaskSev.csproj.AssemblyReference.cache
+C:\Users\sakav\VCSMokymai\Task7\TaskSev\obj\Debug\net5.0\TaskSev.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sakav\VCSMokymai\Task7\TaskSev\obj\Debug\net5.0\TaskSev.AssemblyInfoInputs.cache
+C:\Users\sakav\VCSMokymai\Task7\TaskSev\obj\Debug\net5.0\TaskSev.AssemblyInfo.cs
+C:\Users\sakav\VCSMokymai\Task7\TaskSev\obj\Debug\net5.0\TaskSev.csproj.CoreCompileInputs.cache

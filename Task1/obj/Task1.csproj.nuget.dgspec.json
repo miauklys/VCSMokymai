@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sakav\\OneDrive\\Documents\\Personal\\Programavimas\\C#\\Programos\\Task1\\Task1.csproj": {}
+    "C:\\Users\\sakav\\VCSMokymai\\Task1\\Task1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sakav\\OneDrive\\Documents\\Personal\\Programavimas\\C#\\Programos\\Task1\\Task1.csproj": {
+    "C:\\Users\\sakav\\VCSMokymai\\Task1\\Task1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sakav\\OneDrive\\Documents\\Personal\\Programavimas\\C#\\Programos\\Task1\\Task1.csproj",
+        "projectUniqueName": "C:\\Users\\sakav\\VCSMokymai\\Task1\\Task1.csproj",
         "projectName": "Task1",
-        "projectPath": "C:\\Users\\sakav\\OneDrive\\Documents\\Personal\\Programavimas\\C#\\Programos\\Task1\\Task1.csproj",
+        "projectPath": "C:\\Users\\sakav\\VCSMokymai\\Task1\\Task1.csproj",
         "packagesPath": "C:\\Users\\sakav\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sakav\\OneDrive\\Documents\\Personal\\Programavimas\\C#\\Programos\\Task1\\obj\\",
+        "outputPath": "C:\\Users\\sakav\\VCSMokymai\\Task1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
