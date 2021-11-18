@@ -8,55 +8,69 @@ namespace Task2
 {
     public class Skaicius
     {
-        
-        public void ivestis()      
+        public List<double> IvedimasTTwo()
         {
-           List<int> sarasas = new List<int>();
-           for (int i = 0; i < 4; i++)
-           {
-                Console.WriteLine("Įveskite keturis teigiamus skaičius:");
+            List<double> skaiciuSarasas = new List<double>();
+            for (double i = 1; i < 5; i++)
+            {
+                Console.WriteLine($"Įveskite {i} teigiamą skaičių:");
                 string ivestis = Console.ReadLine();
-                int sk = Convert.ToInt32(ivestis);
-                sarasas.Add(sk);
-           }            
+                double sveikassSkaicius = Convert.ToInt32(ivestis);
+
+                skaiciuSarasas.Add(sveikassSkaicius);
+            }
+            return skaiciuSarasas;
         }
 
-        public bool SarTeig(List<int> sar) 
+        public void PatikrintiArTeigiamiSkaiciai(List<double> sarasas)
         {
-            
-            bool rezultas = false;
-            // 1, 2, -1, 5
-            if (sar == null || sar.Count == 0)
+            foreach (double skaicius in sarasas)
             {
-                rezultas = false;
-            }
-
-            foreach (var sk in sar)
-            {
-                // 1 - nieko nereturninis ir pasibaigs - nieko nedaro;
-                // 2 - -||-;
-                // -1 - rezultatui priskirs false reikšmę;
-                // 5 - nieko nereturninis ir pasibaigs - nieko nedaro;
-                if (sk <= 0)
+                if (skaicius < 0)
                 {
-                    rezultas = false;
+                    Console.WriteLine($"\nĮvedėte neigiamą skaičių ({skaicius}).\n");
                 }
             }
-            // rezultatas - false
-            return rezultas; // retrun grąžinama false rezultatą;                             
-        
-        } 
-        
-        public int suma(int suma)
+        }
+
+        public double SudetiSkaicius(List<double> sarasas)
         {
-            ivestis();
-            List<int> sar = new List<int>();
-            int sum = 0;
-            foreach (int elementas in sar)
+            double sum = 0;
+            foreach (double elementas in sarasas)
             {
                 sum += elementas;
             }
-            return suma;
+            return sum;
+        }
+
+        public double AtimtiSkaicius(List<double> sarasas)
+        {
+            double skirtumas = 0;
+            foreach (double elementas in sarasas)
+            {
+                skirtumas -= elementas;
+            }
+            return skirtumas;
+        }
+
+        public double SudaugintiSkaicius(List<double> sarasas)
+        {
+            double sandauga = 1;
+            foreach (double elementas in sarasas)
+            {
+                sandauga *= elementas;
+            }
+            return sandauga;
+        }
+
+        public double DalinaSkaicius(List<double> sarasas)
+        {
+            double dalyba = 1;
+            foreach (double elementas in sarasas)
+            {
+                dalyba /= elementas;
+            }
+            return dalyba;
         }
     }
 }

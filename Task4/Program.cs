@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Task4
 {
@@ -6,8 +7,13 @@ namespace Task4
     {
         static void Main(string[] args)
         {
-            TaskFourClass prog = new TaskFourClass();
+            TaskFourClass programaIvesti = new TaskFourClass();
+            List<string> ivestasTekstas = programaIvesti.IvestiTeksta();
 
+            TaskFourClass programaIsvesti = new TaskFourClass();
+            programaIsvesti.isvestiZodzius(ivestasTekstas);
+
+            Console.ReadLine();
         }
     }
 }

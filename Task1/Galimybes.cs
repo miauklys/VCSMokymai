@@ -10,6 +10,6 @@ namespace Task1
     {
         nieko,
         vairuoti,
-        vairuotiGerti
+        vairuotiIrGerti
     }
 }

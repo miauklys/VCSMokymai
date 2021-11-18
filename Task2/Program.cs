@@ -7,12 +7,34 @@ namespace Task2
     {
         static void Main(string[] args)
         {
-            List<Skaicius> teigiamuSkaiciuSarasass = new List<Skaicius>();
-            Skaicius sumosVeiksmas = new Skaicius();
+            TaskTwoClass programaIvesti = new TaskTwoClass();
+            List<double> teigiamuSkaiciuSarasas = programaIvesti.IvedimasTTwo();
 
-            int suma = sumosVeiksmas.Suma(teigiamuSkaiciuSarasass);
+            TaskTwoClass programaPatikrinaArTeigiamiSkaiciai = new TaskTwoClass();
+            programaPatikrinaArTeigiamiSkaiciai.PatikrintiArTeigiamiSkaiciai(teigiamuSkaiciuSarasas);
 
-            Console.WriteLine($"{suma}");
+            TaskTwoClass sumosVeiksmas = new TaskTwoClass();
+            double suma = sumosVeiksmas.SudetiSkaicius(teigiamuSkaiciuSarasas);
+
+            TaskTwoClass atimtiesVeiksmas = new TaskTwoClass();
+            double atimtis = atimtiesVeiksmas.AtimtiSkaicius(teigiamuSkaiciuSarasas);
+
+            TaskTwoClass sandaugosVeiksmas = new TaskTwoClass();
+            double sandauga = sandaugosVeiksmas.SudaugintiSkaicius(teigiamuSkaiciuSarasas);
+
+            TaskTwoClass dalybosVeiksmas = new TaskTwoClass();
+            double dalyba = dalybosVeiksmas.DalinaSkaicius(teigiamuSkaiciuSarasas);
+
+
+            Console.WriteLine($"Įvestų skaičių suma: {suma}.\n" +
+                $"--------------------------------------------------------------------------------------");
+            Console.WriteLine($"Įvestų skaičių skirtumas: {atimtis}.\n" +
+                $"--------------------------------------------------------------------------------------");
+            Console.WriteLine($"Įvestų skaičių sandauga: {sandauga}.\n" +
+                $"--------------------------------------------------------------------------------------");
+            Console.WriteLine($"Įvestų skaičių dalyba: {dalyba:0.000000}.\n" +
+                $"--------------------------------------------------------------------------------------");
+
             Console.ReadLine();
 
         }
