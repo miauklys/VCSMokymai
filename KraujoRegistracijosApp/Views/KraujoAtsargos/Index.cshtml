@@ -1,0 +1,45 @@
+﻿@model IEnumerable<KraujoRegistracijosApp.Models.KraujoAtsargos>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Likite gyvi!</h1>
+    <p>Ši aplikacija yra skirta kaupti informaciją apie įvairių kraujo grupių atsargas.</a></p>
+
+
+</div>
+
+<p>
+    <a asp-action="Create">Pridėti naujas kraujo atsargas</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Kraujo grupė
+ @*               @Html.DisplayNameFor(model => model.KraujoGrupe)*@
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @*Kraujo grupė*@
+                @Html.DisplayFor(modelItem => item.KraujoGrupe)
+                
+                @*@Model.Sum(i => i.Atsargos)*@
+                
+            </td>
+
+            <td>
+                <a asp-action="Grupe" asp-route-id="@item.KraujoGrupe">Keisti</a> |
+                <a asp-action="Likutis" asp-route-id="@item.KraujoGrupe">Detali informacija</a> 
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
